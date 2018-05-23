@@ -6,6 +6,7 @@ def summon_captain_planet(calls)
   calls.map do |call|
     call[0] = call[0].upcase
     call + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
